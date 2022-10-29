@@ -42,7 +42,11 @@ export default {
 <style lang="scss">
 .NavBar{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
     padding: 0.5rem;
+    background-color: var(--dark3);
 }
 
 .NavBar__item{
