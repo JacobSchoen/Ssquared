@@ -44,6 +44,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
     height: inherit;
     padding: 0.5rem;
     background-color: var(--dark3);

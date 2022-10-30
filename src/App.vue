@@ -1,5 +1,6 @@
 <template>
-    <div class="header row navbar">
+    <div class="App">
+      <div class="header row navbar">
       <NavBar/>
     </div> 
     <div class="body row scroll-y routerview">
@@ -8,6 +9,7 @@
     <div class="footer row">
       My footer
     </div>
+  </div>
 </template>
 
 <script>
@@ -22,9 +24,10 @@ export default {
 
 </script>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 .App{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1250em;
   background-color: var(--dark1);
   height: 100vh;
 }
